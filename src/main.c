@@ -212,10 +212,12 @@ int main(){
     size_t count_required =0 ;
     char* expression = "amainak+b^(c-d)+(e-f)^(5/4)";
     // Stack * context = create_stack(22);
-    Token * tokens = tokenize(expression, 22, &count_required);
+    // Token * tokens = tokenize(expression, 22, &count_required);
 
     // print_tokens_stream(tokens, count_required, expression);
 
     // print_stack(stack);
+
+    printf("Hello World\n");
     return 0;
 }
